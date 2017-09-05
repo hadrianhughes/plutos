@@ -1,7 +1,9 @@
 import React from 'react';
 
-const Dash = () => (
-	<div>Hello world</div>
+import Header from './Header.jsx';
+
+const Dash = ({navItems}) => (
+  <Header navItems={navItems} />
 );
 
 module.exports = Dash;

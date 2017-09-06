@@ -1,6 +1,7 @@
 @import './mixins/color.scss';
 
 .FinanceBar {
+  box-sizing: border-box;
   width: 100%;
   height: 60px;
   border: 2px solid color(medium-dark-grey);

@@ -1,9 +1,12 @@
 import React from 'react';
 
-import Header from './Header.jsx';
+import '../styles/Dash.scss';
+
+import FinanceBar from './FinanceBar.jsx';
 
 const Dash = () => (
-  <div>
+  <div className="Dash">
+    <FinanceBar />
   </div>
 );
 

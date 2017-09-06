@@ -5,4 +5,4 @@ const reducer = combineReducers({
   Dash
 });
 
-module.exports = reducer;
+export default reducer;

@@ -10,4 +10,4 @@ const Header = () => (
   </header>
 );
 
-module.exports = Header;
+export default Header;

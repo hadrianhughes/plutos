@@ -6,4 +6,4 @@ const Dash = (state = [], action) => {
   }
 };
 
-module.exports = Dash;
+export default Dash;

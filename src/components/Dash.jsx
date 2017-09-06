@@ -10,4 +10,4 @@ const Dash = () => (
   </div>
 );
 
-module.exports = Dash;
+export default Dash;

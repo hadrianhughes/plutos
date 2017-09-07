@@ -4,9 +4,9 @@ import '../styles/Dash.scss';
 
 import FinanceBar from './FinanceBar.jsx';
 
-const Dash = ({ portions }) => (
+const Dash = ({ incomeItems }) => (
   <div className="Dash">
-    <FinanceBar portions={portions} />
+    <FinanceBar incomeItems={incomeItems} />
   </div>
 );
 

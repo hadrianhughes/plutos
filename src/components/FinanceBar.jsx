@@ -2,9 +2,11 @@ import React from 'react';
 
 import '../styles/FinanceBar.scss';
 
-const FinanceBar = ({ portions }) => (
+const FinanceBar = ({ incomeItems }) => (
   <div className="FinanceBar">
-    {portions}
+    {incomeItems.map(item => (
+      <h1>{item.name}</h1>
+    ))}
   </div>
 );
 

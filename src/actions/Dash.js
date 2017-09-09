@@ -1,8 +1,8 @@
 let nextIncomeId = 0;
-export const actAddIncomeItems = items => {
+export const actAddIncomeItem = item => {
   return {
-    type: 'ADD_INCOME_ITEMS',
+    type: 'ADD_INCOME_ITEM',
     id: nextIncomeId++,
-    items
+    item
   };
 };

@@ -14,14 +14,16 @@ import Dash from './components/Dash.jsx';
 import reducer from './reducers';
 
 // Actions
-import { actAddIncomeItems } from './actions/Dash.js';
+import { actAddIncomeItem } from './actions/Dash.js';
 
 // Make store
 let store = createStore(reducer);
 
 // Fetch data
 import incomeData from './mock-data/income.json';
-store.dispatch(actAddIncomeItems(incomeData));
+for (let i = 0;i < incomeData.length;i++) {
+	store.dispatch(actAddIncomeItem(incomeData[i]));
+}
 
 render(
 	<Provider store={store}>

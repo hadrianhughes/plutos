@@ -8,7 +8,7 @@ import './styles/base.scss';
 
 // Components
 import Layout from './components/Layout.jsx';
-import DashContainer from './containers/DashContainer.jsx';
+import Dash from './components/Dash.jsx';
 
 // Reducer
 import reducer from './reducers';
@@ -26,7 +26,7 @@ store.dispatch(actAddIncomeItems(incomeData));
 render(
 	<Provider store={store}>
 		<Layout>
-			<DashContainer />
+			<Dash />
 		</Layout>
 	</Provider>,
 	document.getElementById('app')

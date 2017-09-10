@@ -1,14 +1,14 @@
 [
   {
     "name": "Main",
-    "from": "My job",
+    "source": "My job",
     "amount": 2000,
     "period": 4,
     "note": "Hello world"
   },
   {
     "name": "Other",
-    "from": "Side job",
+    "source": "Side job",
     "amount": 200,
     "period": 4,
     "note": "Something"

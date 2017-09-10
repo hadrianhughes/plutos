@@ -5,7 +5,8 @@ import FinanceBar from '../components/FinanceBar.jsx';
 
 const mapStateToProps = state => {
   return {
-    incomeItems: state.Dash.incomeItems
+    incomeItems: state.Dash.incomeItems,
+    totalIncome: state.Dash.totalIncome
   };
 };
 

@@ -7,9 +7,10 @@ const FinanceBarItem = ({
   source,
   amount,
   period,
-  note
+  note,
+  portion
 }) => (
-  <div className="FinanceBarItem">
+  <div className="FinanceBarItem" style={{width: portion + '%'}}>
   </div>
 );
 

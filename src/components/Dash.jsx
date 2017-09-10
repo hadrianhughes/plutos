@@ -4,7 +4,7 @@ import '../styles/Dash.scss';
 
 import FinanceBarContainer from '../containers/FinanceBarContainer.jsx';
 
-const Dash = ({ incomeItems }) => (
+const Dash = () => (
   <div className="Dash">
     <FinanceBarContainer />
   </div>

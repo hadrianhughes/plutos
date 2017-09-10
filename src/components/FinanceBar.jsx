@@ -14,7 +14,8 @@ const FinanceBar = ({ incomeItems }) => (
         amount={item.amount}
         period={item.period}
         note={item.note}
-        portion={item.portion} />
+        portion={item.portion}
+        color={item.color} />
     ))}
   </div>
 );

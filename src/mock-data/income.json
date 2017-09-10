@@ -4,13 +4,15 @@
     "source": "My job",
     "amount": 2000,
     "period": 4,
-    "note": "Hello world"
+    "note": "Hello world",
+    "color": "#bd8cff"
   },
   {
     "name": "Other",
     "source": "Side job",
     "amount": 200,
     "period": 4,
-    "note": "Something"
+    "note": "Something",
+    "color": "#64c46c"
   }
 ]

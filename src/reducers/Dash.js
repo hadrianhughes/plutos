@@ -1,6 +1,7 @@
 const Dash = (state = {
   incomeItems: [],
-  totalIncome: 0
+  totalIncome: 0,
+  incomeView: false
 }, action) => {
   switch (action.type) {
     case 'ADD_INCOME_ITEM': {
@@ -15,6 +16,14 @@ const Dash = (state = {
         ...state,
         incomeItems: incomeItems,
         totalIncome: total
+      };
+    } break;
+    case 'TOGGLE_DASH_VIEW': {
+      let view = !state.incomeView;
+
+      return {
+        ...state,
+        incomeView: view
       };
     } break;
     default: {

@@ -5,6 +5,6 @@ export const actAddIncomeItem = item => ({
   item
 });
 
-export const actToggleDashView = () => ({
-  type: 'TOGGLE_DASH_VIEW'
+export const actControlButtonClick = id => ({
+  type: id
 });
